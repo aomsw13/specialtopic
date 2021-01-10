@@ -94,6 +94,7 @@ def top_score_vector():
     top_vector.extend(sorted(score,key=score.get,reverse=True)[:percent])
     print("top_vector",len(top_vector))
 
+# add comment
 def n_gram_split():
     for comment_index in comment_summary:
         comment = comment_summary[comment_index]['comment']
