@@ -17,6 +17,7 @@ inp = pd.read_csv(DATA_SOURCE+'/'+input_file+'.csv',encoding = "ISO-8859-1")
 comment_summary = dict()
 y_true = []
 
+# data preprocessing
 def lemma(comment):
     lemma_comment = []
     doc = nlp(comment)    
