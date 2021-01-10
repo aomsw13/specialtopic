@@ -173,6 +173,8 @@ print('confusion matrix \n', confusion_matrix(y_true, predict, labels=[0, 1]))
 #             writer.writerow({'index':ind, 'comment':inp.iloc[ind]['comment']})
 #             print(ind,inp.iloc[ind]['comment'])
 
+
+# write result to csv file
 with open('dataset/predict.csv','w') as csvout:
     writer = csv.DictWriter(csvout,fieldnames=['index','comment', 'predict'])
     writer.writeheader()
