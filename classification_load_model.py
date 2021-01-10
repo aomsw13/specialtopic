@@ -9,6 +9,7 @@ import spacy
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, classification_report, confusion_matrix
 from sklearn.metrics import classification_report
 
+# TODO: change file name according to your file
 input_file = "all_comments"
 
 nlp = spacy.load('en_core_web_md')
