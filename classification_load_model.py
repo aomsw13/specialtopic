@@ -88,7 +88,7 @@ def read_n_gram():
             score[n_gram_id] =  math.log10(weight1) * int(row[2])
             n_grams[n_gram_id] = term
             n_gram_id += 1
-
+# function top_score_vector
 def top_score_vector():
     percent = int(len(score) * 100 / 100)
     top_vector.extend(sorted(score,key=score.get,reverse=True)[:percent])
