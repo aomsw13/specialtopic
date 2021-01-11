@@ -15,7 +15,7 @@ input_file = "all_comments"
 nlp = spacy.load('en_core_web_md')
 inp = pd.read_csv(DATA_SOURCE+'/'+input_file+'.csv',encoding = "ISO-8859-1")
 comment_summary = dict()
-y_true = []
+y_true = [] # collect true value from human label
 
 # data preprocessing
 def lemma(comment):
