@@ -1,6 +1,5 @@
 from myconfig import *
 # create testing comment
-# createing amazing things
 import ast
 import autosklearn.classification, csv, math, re
 import numpy as np
@@ -110,7 +109,8 @@ def n_gram_split():
                         else: 
                             comment_summary[comment_index]['vector'][summary[tuple(comment_post_process[i:j+1])]['id']] = 1
                             
-def vector_idf():
+def vector_idf(): # createing amazing things
+
     for i in comment_summary:
          for v in comment_summary[i]['vector']:
             comment_summary[i]['vector'][v] *= score[v]
