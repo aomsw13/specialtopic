@@ -122,6 +122,7 @@ n_gram_split()
 print("finish")
 #vector_idf()
 
+# we can do it now
 
 # In[16]:
 
