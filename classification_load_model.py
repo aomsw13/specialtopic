@@ -109,7 +109,8 @@ def n_gram_split():
                         else: 
                             comment_summary[comment_index]['vector'][summary[tuple(comment_post_process[i:j+1])]['id']] = 1
                             
-def vector_idf():
+def vector_idf(): # createing amazing things
+
     for i in comment_summary:
          for v in comment_summary[i]['vector']:
             comment_summary[i]['vector'][v] *= score[v]
@@ -121,6 +122,7 @@ n_gram_split()
 print("finish")
 #vector_idf()
 
+# we can do it now
 
 # In[16]:
 
