@@ -8,7 +8,7 @@ import pickle
 import spacy
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, classification_report, confusion_matrix
 from sklearn.metrics import classification_report
-
+# we have to susu against the wall
 # TODO: change file name according to your file name and accept only csv file
 input_file = "all_comments"
 
