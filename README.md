@@ -3,4 +3,5 @@
 ### my name is aom
 believe in yourself bts young
 how is your day? I hope everything goes well \n
-why nano
+why nano <br>
+This site was built using [GitHub Pages](https://pages.github.com/).
