@@ -14,6 +14,6 @@ still continue ###consult with me <br>
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | <br>
 ### Life goes on - 7
-yeaah I know you haha. listen mytime 00:00        <br>
+yeaah I know you haha. listen mytime 00:00        <br> thanks gods suk tee di
 push me up. happen to me and amazing. thanks home run. going to you 
 ### 7ornothing
