@@ -12,6 +12,8 @@ import org.mockito.Mock;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
 
+// test extract comment at test branch
+
 // this test exposes the problem most of the time
 public class ThreadVerifiesContinuouslyInteractingMockTest extends TestBase {
 
