@@ -11,7 +11,6 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
-
 // this test exposes the problem most of the time
 public class ThreadVerifiesContinuouslyInteractingMockTest extends TestBase {
 
@@ -51,3 +50,4 @@ public class ThreadVerifiesContinuouslyInteractingMockTest extends TestBase {
         }
     }
 }
+// test extract comment at test branch
