@@ -1,0 +1,44 @@
+ext {
+    libraries = [:]
+}
+
+def versions = [:]
+
+versions.bytebuddy = '1.10.19'
+versions.junitJupiter = '5.7.0'
+versions.errorprone = '2.5.1'
+
+libraries.junit4 = 'junit:junit:4.13.1'
+libraries.junitJupiterApi = "org.junit.jupiter:junit-jupiter-api:${versions.junitJupiter}"
+libraries.junitPlatformLauncher = 'org.junit.platform:junit-platform-launcher:1.7.0'
+libraries.junitJupiterEngine = "org.junit.jupiter:junit-jupiter-engine:${versions.junitJupiter}"
+libraries.assertj = 'org.assertj:assertj-core:3.18.1'
+libraries.hamcrest = 'org.hamcrest:hamcrest-core:2.2'
+libraries.opentest4j = 'org.opentest4j:opentest4j:1.2.0'
+
+libraries.bytebuddy = "net.bytebuddy:byte-buddy:${versions.bytebuddy}"
+libraries.bytebuddyagent = "net.bytebuddy:byte-buddy-agent:${versions.bytebuddy}"
+libraries.bytebuddyandroid = "net.bytebuddy:byte-buddy-android:${versions.bytebuddy}"
+
+libraries.errorprone = "com.google.errorprone:error_prone_core:${versions.errorprone}"
+libraries.errorproneTestApi = "com.google.errorprone:error_prone_test_helpers:${versions.errorprone}"
+
+libraries.autoservice = "com.google.auto.service:auto-service:1.0-rc7"
+
+// objenesis 3.x fails on android instrumentation test compile. https://github.com/mockito/mockito/issues/2007
+libraries.objenesis2 = 'org.objenesis:objenesis:2.6'
+libraries.objenesis3 = 'org.objenesis:objenesis:3.1'
+
+libraries.asm = 'org.ow2.asm:asm:7.0'
+
+libraries.osgi = 'org.osgi:osgi.core:8.0.0'
+libraries.equinox = 'org.eclipse.platform:org.eclipse.osgi:3.16.100'
+libraries.bndGradle =  'biz.aQute.bnd:biz.aQute.bnd.gradle:5.2.0'
+
+def kotlinVersion = '1.4.21-2'
+libraries.kotlin = [
+    version: kotlinVersion,
+
+    stdlib: "org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}",
+    coroutines: 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2-native-mt',
+]
