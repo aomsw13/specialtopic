@@ -9,3 +9,4 @@
  * {@link org.mockitousage} is for functional / acceptance tests
  */
 package org.concurrentmockito;
+/** * Relates to Github issue #583 ""ArgumentCaptor: NPE when an null array is * passed to a varargs method"" */"
