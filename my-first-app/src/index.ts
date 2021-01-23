@@ -11,7 +11,7 @@ export = ({ app }: { app: Probot }) => {
   //   // Post a comment on the issue
   //   return context.octokit.issues.createComment(issueComment);
   // });
-
+hello
 
   app.on(['pull_request.closed', 'pull_request.synchronize'], async (context) => {
     // An issue was edited, what should we do with it?
