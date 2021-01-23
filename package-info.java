@@ -9,3 +9,4 @@
  * {@link org.mockitousage} is for functional / acceptance tests
  */
 package org.concurrentmockito;
+/** * This test demonstrates how verification started listeners work. * The test cases are contrived but they provide necessary coverage. * For rationale, see https://github.com/mockito/mockito/issues/1191 */"
